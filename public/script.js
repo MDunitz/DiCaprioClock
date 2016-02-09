@@ -1,5 +1,7 @@
 angular.module('myApp', [
   'ngRoute',
+  'timer'
+  //'ngstyle'
   // 'myApp.viewTimer',
   // 'myApp.viewOld',
   // 'myApp.viewYoung',
@@ -21,8 +23,12 @@ angular.module('myApp', [
         //controller: 'oldController'
     })
 
-    .when('/viewTimer',{
+    .when('/viewTimerYoung',{
         templateUrl: 'views/timer.html',
+        //controller: 'timerController'
+    })
+    .when('/viewTimer',{
+        templateUrl: 'views/timerTwo.html',
         //controller: 'timerController'
     })
 

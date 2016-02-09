@@ -1,0 +1,18 @@
+{
+  "name": "dicaprioClock",
+  "description": "My MVP project",
+  "main": "server.js",
+  "authors": [
+    "Madison <midunitz@ucdavis.edu>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/MDunitz/mvpRound2",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

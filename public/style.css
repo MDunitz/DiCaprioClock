@@ -1,2 +1,18 @@
+body {
+    background: yellow;
+}
+
+html {
+ background: url(http://i.dailymail.co.uk/i/pix/2013/12/31/article-2531540-1A59BE1F00000578-700_306x423.jpg)
+) no-repeat center center fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;^^
+ -o-background-size: cover;
+ background-size: cover;
+ padding: 5%;
+}
+
+
 body {padding-top:50px; }
 .container .openPage {border-radius: :40px; }
+

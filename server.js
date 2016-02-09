@@ -11,6 +11,7 @@ var port=process.env.PORT || 8080;
 console.log(__dirname + '/public');
 app.use(express.static(__dirname + '/public'));
 app.use(express.static(__dirname + '/node_modules'));
+app.use(express.static(__dirname + '/bower_components'));
 
 //set the hom page route
 

@@ -1,30 +1,38 @@
 <!DOCTYPE html>
 <html lang='en'>
 <head>
-    <meta charset="UTF-8">
+   <!-- <meta charset="UTF-8"> -->
     <title>DiCaprio Clock</title>
 
     <!-- CSS -->
     <!-- load bootstrap and personal stylesheet -->
-    <link href="//maxcdn.bootstrapcdn.com/bootswatch/3.2.0/superhero/bootstrap.min.css" rel='stylesheet'>
-    <link rel "stylesheet" href="css/style.css">
+    <link href="style.css" rel "stylesheet" >
     
 
 </head>
 <body ng-app='myApp'>
+
   <div ng-view>
 
   </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular-route.js"></script>
-<script type="text/javascript" src="./datejs/lib/date.js"></script>
+<script src="humanize-duration/humanize-duration.js"></script>
+<script src="/moment/moment.js"></script>
+<script src='/angular-timer/app/js/_timer.js'></script>
+<script src='/angular-timer/app/js/i18nService.js'></script>
+<script src='/angular-timer/app/js/progressBarService.js'></script>
+<!-- <script src='/angular-timer/dist/assets/js/angular-timer-bower.js'></script>
+<script src='/angular-timer/dist/assets/js/angular-timer-all.min.js'></script>
+ --><script type="text/javascript" src="./datejs/lib/date.js"></script>
 <!-- <script src='views/young.js'></script>
 <script src='views/old.js'></script>
 <script src='views/timer.js'></script>
 <script src='views/index.js'></script> -->
 <script src="script.js"></script>
 <script src="controllers/MainController.js"></script>
+
 
 
 </body>
