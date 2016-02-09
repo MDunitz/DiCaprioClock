@@ -10,5 +10,9 @@ var myApp=angular.module('myApp', [
   'myApp.viewIndex'
 ]).
 config(['$routeProvider', function($routeProvider) {
-  $routeProvider.otherwise({redirectTo: '/views/index.ejs'});
+      $routeProvider.when('/',{
+        templateUrl: 'views/open.html'
+    });
+
+
 }]);
