@@ -12,28 +12,28 @@
 
 </head>
 <body>
-    <div class="container">
+    <div ng-app='MyApp' class="container">
         <div class="openPage">
             <h1> Dicaprio Clock!</h1>
             <p>How much time do you have left?</p>
         </div>
-            <div ng-app='MyApp'>
+            <div ng-controller='MainController'>
            
            <p>Enter your Date of Birth:</p>
            <form>
                <select ng-model='month'>
-                    <option value='01'>January
-                    <option value='02'>February
-                    <option value='03'>March
-                    <option value='04'>April
-                    <option value='05'>May
-                    <option value='06'>June
-                    <option value='07'>July
-                    <option value='08'>August
-                    <option value='09'>September
-                    <option value='10'>October
-                    <option value='11'>November
-                    <option value='12'>December
+                    <option value='01'>January</option>
+                    <option value='02'>February</option>
+                    <option value='03'>March</option>
+                    <option value='04'>April</option>
+                    <option value='05'>May</option>
+                    <option value='06'>June</option>
+                    <option value='07'>July</option>
+                    <option value='08'>August</option>
+                    <option value='09'>September</option>
+                    <option value='10'>October</option>
+                    <option value='11'>November</option>
+                    <option value='12'>December</option>
                 </select>
                  <select ng-model='day'>
                     <option value='01'>01
@@ -101,6 +101,7 @@
                     <option value='30'>30
                     <option value='31'>31
                 </select>
+                <button ng-click='userDOB()'>Enter</button>
             </form>
         </div>
     </div>

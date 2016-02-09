@@ -7,6 +7,7 @@
   },
   "dependencies": {
     "angular": "1.5.0",
+    "datejs": "0.0.2",
     "ejs": "~1.0.0",
     "express": "~4.9.8"
   }
