@@ -3,7 +3,8 @@
   "description": "My MVP project",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "postinstall": "bower install" 
   },
   "dependencies": {
     "angular": "1.5.0",
