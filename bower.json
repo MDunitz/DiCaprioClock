@@ -14,5 +14,13 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "angular-timer": "^1.3.3",
+    "humanize-duration": "^3.5.0",
+    "moment": "momentjs#^2.11.2"
+  },
+  "resolutions": {
+    "humanize-duration": "~2.8.0"
+  }
 }
