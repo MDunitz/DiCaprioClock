@@ -1,0 +1,86 @@
+body {
+
+}
+.everything {
+ position: fixed;
+ padding: 0;
+ margin: 0;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ background;
+}
+
+.open {
+background:#2b3e50 url(http://media0.giphy.com/media/jNdw5Qmy5MOpq/giphy.gif)
+ no-repeat center center fixed;
+ background-size: contain;
+ -webkit-background-size: contain;
+ -moz-background-size: contain;^^
+ -o-background-size: contain;
+ background-size: contain;
+ padding: 5%;
+ color: #ebebeb;
+ text-shadow: 2px 2px #000000;
+}
+
+.timerEnd{
+background:#2b3e50 url(http://www.secondarycharacters.org/uploads/1/2/0/2/12027622/1465716_orig.jpg)
+ no-repeat center center fixed;
+ background-position: 75% 0%; 
+ background-size: contain;
+ -webkit-background-size: contain;
+ -moz-background-size: contain;^^
+ -o-background-size: contain;
+ background-size: contain;
+ padding: 5%;
+ color: #cccccc;
+
+}
+
+.timer{
+background:#2b3e50 url(http://i1379.photobucket.com/albums/ah144/NadineOtt/2ef02363-d527-4c74-8b81-15387b687433_zpsmly2bvzw.jpg)
+ no-repeat center center fixed;
+background-position: 75% 0%; 
+ background-size: contain;
+ -webkit-background-size: contain;
+ -moz-background-size: contain;^^
+ -o-background-size: contain;
+ background-size: contain;
+ padding: 5%;
+ color: #cccccc;
+
+}
+
+.old{
+ background:#2b3e50 url(https://s-media-cache-ak0.pinimg.com/236x/69/48/53/694853dd712ce5bf3241a909f8b76893.jpg)
+ no-repeat center center fixed;
+ background-position: 75% 0%;
+ background-size: contain;
+ -webkit-background-size: contain;
+ -moz-background-size: contain;^^
+ -o-background-size: contain;
+ background-size: contain;
+ padding: 5%;
+ color: #cccccc;
+}
+
+
+.young{
+ background:#2b3e50 url(http://i1379.photobucket.com/albums/ah144/NadineOtt/f75ed62f-501c-4932-bcf6-39beef8c08d0_zpsu0g2czsq.jpg)
+ no-repeat center center fixed;
+background-position: 75% 0%; 
+ background-size: contain;
+ -webkit-background-size: contain;
+ -moz-background-size: contain;^^
+ -o-background-size: contain;
+ background-size: contain;
+ padding: 5%;
+ color: #cccccc;
+}
+
+
+body {padding-top:50px; }
+.container .openPage {border-radius: :40px; }
+
